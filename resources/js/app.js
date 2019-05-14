@@ -4,8 +4,7 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-require('./bootstrap');
-
+require('../../node_modules/materialize-css/dist/js/materialize.min.js');
 window.Vue = require('vue');
 
 /**
