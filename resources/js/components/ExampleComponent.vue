@@ -11,6 +11,9 @@
                 </div>
             </div>
         </div>
+        <div v-if="newNotification">
+            Tuka sym
+        </div>
     </div>
 </template>
 
@@ -18,6 +21,31 @@
     export default {
         mounted() {
             console.log('Component mounted.')
-        }
+        },
+
+        data() {
+            return {
+                'newNotification' => false,   
+            };
+        },
+
+
+        methods: {
+            createNotification(type) {
+                let component = this;
+                axios.post('/notification', this.getNotificationData(type))
+                .then(function(response) {
+                     component.newNotification = response.data.notification;       
+                }).catch(function() {
+                    console('Something went wrong');        
+                });
+            },
+
+            getNotificationData(type) {
+                if(type === 'type_notificati') {
+                    return {};
+                }      
+            },
+        },
     }
 </script>

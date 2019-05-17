@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'NotificationController@index')->name('notifications.index');
+Route::post('/notifications', 'NotificationController@store')->name('notifications.store');

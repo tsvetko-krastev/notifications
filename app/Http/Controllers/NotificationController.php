@@ -16,4 +16,12 @@ class NotificationController extends Controller
 
         return view('notifications', compact ('notifications'));
     }
+
+    /**
+     * Create a notification
+     */
+    public store() 
+    {
+        return ['notification' => Notification::create(request()->all())];
+    }
 }

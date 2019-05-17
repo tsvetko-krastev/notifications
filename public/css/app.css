@@ -9273,7 +9273,10 @@ input[type=range]::-ms-thumb {
   }
 }
 
+/*** BODY ***/
+
 body {
-  background-color: #EFF3F6;
+  max-width: 960px;
+  margin: 0 auto;
 }
 

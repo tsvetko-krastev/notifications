@@ -91,31 +91,9 @@
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js& ***!
   \***************************************************************************************************************************************************************************/
 /*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({
-  mounted: function mounted() {
-    console.log('Component mounted.');
-  }
-});
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\resources\\js\\components\\ExampleComponent.vue: Unexpected token (28:30)\n\n  26 |     data() {\n  27 |         return {\n> 28 |             'newNotification' => false,   \n     |                               ^\n  29 |         };\n  30 |     },\n  31 | \n    at Parser.raise (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:6322:17)\n    at Parser.unexpected (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:7638:16)\n    at Parser.parseObjPropValue (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:9265:21)\n    at Parser.parseObjectMember (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:9188:10)\n    at Parser.parseObj (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:9112:25)\n    at Parser.parseExprAtom (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:8745:21)\n    at Parser.parseExprSubscripts (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:8385:23)\n    at Parser.parseMaybeUnary (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:8365:21)\n    at Parser.parseExprOps (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:8252:23)\n    at Parser.parseMaybeConditional (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:8225:23)\n    at Parser.parseMaybeAssign (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:8172:21)\n    at Parser.parseExpression (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:8120:23)\n    at Parser.parseReturnStatement (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:10132:28)\n    at Parser.parseStatementContent (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:9811:21)\n    at Parser.parseStatement (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:9763:17)\n    at Parser.parseBlockOrModuleBlockBody (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:10340:25)\n    at Parser.parseBlockBody (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:10327:10)\n    at Parser.parseBlock (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:10311:10)\n    at Parser.parseFunctionBody (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:9382:24)\n    at Parser.parseFunctionBodyAndFinish (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:9352:10)\n    at Parser.parseMethod (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:9306:10)\n    at Parser.parseObjectMethod (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:9222:19)\n    at Parser.parseObjPropValue (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:9264:23)\n    at Parser.parseObjectMember (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:9188:10)\n    at Parser.parseObj (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:9112:25)\n    at Parser.parseExprAtom (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:8745:21)\n    at Parser.parseExprSubscripts (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:8385:23)\n    at Parser.parseMaybeUnary (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:8365:21)\n    at Parser.parseExprOps (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:8252:23)\n    at Parser.parseMaybeConditional (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:8225:23)\n    at Parser.parseMaybeAssign (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:8172:21)\n    at Parser.parseExportDefaultExpression (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:10949:24)\n    at Parser.parseExport (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:10844:31)\n    at Parser.parseStatementContent (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:9867:27)\n    at Parser.parseStatement (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:9763:17)\n    at Parser.parseBlockOrModuleBlockBody (C:\\Users\\Villy\\Documents\\notifications-component\\notifications\\node_modules\\@babel\\parser\\lib\\index.js:10340:25)");
 
 /***/ }),
 
@@ -620,26 +598,30 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { staticClass: "container" }, [
+    _vm._m(0),
+    _vm._v(" "),
+    _vm.newNotification
+      ? _c("div", [_vm._v("\n        Tuka sym\n    ")])
+      : _vm._e()
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row justify-content-center" }, [
-        _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _vm._v("Example Component")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _vm._v(
-                "\n                    I'm an example component.\n                "
-              )
-            ])
+    return _c("div", { staticClass: "row justify-content-center" }, [
+      _c("div", { staticClass: "col-md-8" }, [
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card-header" }, [
+            _vm._v("Example Component")
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "card-body" }, [
+            _vm._v(
+              "\n                    I'm an example component.\n                "
+            )
           ])
         ])
       ])

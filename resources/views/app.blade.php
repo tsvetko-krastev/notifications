@@ -13,7 +13,7 @@
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
     <body>
-        <div class="page-container">
+        <div class="container">
             @yield('content')
         </div>
         {{-- <div class="flex-center position-ref full-height">
